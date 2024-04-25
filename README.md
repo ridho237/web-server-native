@@ -18,4 +18,6 @@ Open [http://localhost:8000](http://localhost:8000) to view it in your browser.
 ## You can test on command promt for request
 
 Run to see response from the server
-### `curl -X POST -H "Content-Type: application/json" http://localhost:5000 -d "{\"name\": \"yourname\"}"`
+
+### `curl -X GET http://localhost:5000/home`
+### `curl -X POST -H "Content-Type: application/json" http://localhost:5000/body -d "{\"name\": \"yourname\"}"`
